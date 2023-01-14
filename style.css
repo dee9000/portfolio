@@ -158,27 +158,57 @@ body {
   transition: transform .5s;
   -webkit-transform: scale(0.97);
   border: none;
+  filter: none;
+   cursor: pointer;
+   -webkit-filter: grayscale(0);
+   -webkit-box-shadow: 0px 1px 18px 3px rgba(0, 0, 0, 0.36);
+   -moz-box-shadow: 0px 1px 18px 3px rgba(0, 0, 0, 0.36);
+   box-shadow: 0px 1px 18px 3px rgba(0, 0, 0, 0.36);
 }
 
 
 /*BIOGRAPHY*/
 .biography-container{
   background-color: #161621;
+  padding-top: 5em;
 }
 .biography-container .num{
   font-family: 'Anton', sans-serif;
   font-size: 300px;
   color: #FFFFFF;
 }
+.biography-text #content{
+  width: 75%;
+  max-height: 120px;
+  overflow: hidden;
+  -webkit-transition:max-height 0.7s;
+  -moz-transition:max-height 0.7s;
+  transition:max-height 0.7s;
+}
+ #content.open{
+  max-height:2000px;
+  width: 75%;
+  -webkit-transition:max-height 0.7s;
+  -moz-transition:max-height 0.7s;
+  transition:max-height 0.7s;
+}
 .biography-container .biography-text h5{
   font-family: 'Noto Serif Display', serif;
   font-size: 30px;
   color: #FFFFFF;
+  margin-top: 1em;
 }
 .biography-container .biography-text p{
   font-family: 'Noto Serif Display', serif;
   font-size: 18px;
   color: #FFFFFF;
+}
+.biography-container .biography-text .list-group li{
+  font-family: 'Noto Serif Display', serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #161621;
+  border: none;
 }
 .biography-container .biography-text hr{
   border: 1px solid red;
@@ -259,6 +289,8 @@ body {
 .container-one .card .card-img-top{
   outline: 2px solid red;
   outline-offset: -10px;
+  filter: gray;
+  -webkit-filter: grayscale(1);
 }
 
 .container-one .card-deck .card-body{
