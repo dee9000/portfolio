@@ -37,6 +37,13 @@
 
 <!--hero section-->
 <section class="jumbotron">
+  <!--social media-->
+  <div class="icon-bar animate__animated animate__flipInY" >
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
   <div class="card mb-3" >
 <div class="row no-gutters">
   <div class="col-md-5 hero-text text-left">
@@ -49,11 +56,11 @@
   <div class="col-md-5">
     <div class="card image-card">
   <div class="card-body hero-text-bio" data-aos="fade-right">
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-    This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+    <p class="card-text">My name is Dotun, I'm a Designer Developer based in the UK, and I'm very passionate and dedicated to my work.
+This portfolio contains studied content on my web developer training course as well as further self taught topics. </p>
   </div>
   <div class="image animate__animated animate__zoomIn main_image">
-  <img src="img/me.jpeg" class="card-img-bottom" alt="...">
+   <img onmouseover="setNewImage()" onmouseout="setOldImage()"src="img/me.jpeg" class="card-img-bottom" alt="..." id="profile_pic">
 </div>
 </div>
   </div>
@@ -61,6 +68,13 @@
 </div>
 </div>
   </section>
+  <div class="svg-container">
+  <div class="custom-shape-divider-bottom-1673741298">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+    </svg>
+</div>
+</div>
 
   <section class="container-fluid biography-container pt-5">
     <!-- start event block -->
@@ -81,17 +95,17 @@
                   <p data-aos="fade-left">CURRENT TECH STACK</p>
                   <p>
                   <ul class="list-group">
-                  <li class="list-group-item">HTML</li>
-                  <li class="list-group-item">CSS</li>
-                  <li class="list-group-item">JAVASCRIPT</li>
-                  <li class="list-group-item">PHP</li>
-                  <li class="list-group-item">SQL/MySQL</li>
-                  <li class="list-group-item">GIT</li>
+                  <li class="list-group-item"><i class="fa fa-cog fa-spin"></i>HTML</li>
+                  <li class="list-group-item"><i class="fa fa-cog fa-spin"></i>CSS</li>
+                  <li class="list-group-item"><i class="fa fa-cog fa-spin"></i>JAVASCRIPT</li>
+                  <li class="list-group-item"><i class="fa fa-cog fa-spin"></i>PHP</li>
+                  <li class="list-group-item"><i class="fa fa-cog fa-spin"></i>SQL/MySQL</li>
+                  <li class="list-group-item"><i class="fa fa-cog fa-spin"></i>GIT</li>
                   </ul>
                 </p>
               </div>
             </div>
-            <div class="pl-5 mt-4">
+            <div class="pl-5 mt-4 read-more">
             <button type="button" class="btn btn-outline-light btn-lg" id="read-more" data-aos="fade-right">Read More</button>
           </div>
         </div>
@@ -118,7 +132,7 @@
 <div class="container container-one" data-aos="fade-up">
   <div class="card-deck">
     <div class="card mb-5">
-    <img class="card-img-top" src="img/img1.png" alt="Card image cap">
+    <a href="https://www.toonsville.co.uk/"><img class="card-img-top" src="img/img1.png" alt="Card image cap"></a>
     <div class="card-body">
       <h5 class="card-title pt-4">CUSTOM WORDPRESS WEBSITE</h5>
       <h6 class="card-text pb-2">TOONSVILLE<h6>
@@ -171,70 +185,77 @@
 <div class="container container-one" data-aos="fade-up">
   <div class="card-deck">
     <div class="card mb-5">
-    <img class="card-img-top" src="img/img1.png" alt="Card image cap">
+    <a href="https://stmartinsschoolderby.co.uk/"><img class="card-img-top" src="img/img10.png" alt="Card image cap"></a>
     <div class="card-body">
-      <h5 class="card-title pt-4">COLLECTED STORIES</h5>
-      <h6 class="card-text pb-2">THE IMMORALIST<h6>
+      <h5 class="card-title pt-4">SPECIAL NEEDS SCHOOL</h5>
+      <h6 class="card-text pb-2">ST MARTINS SCHOOL DERBY<h6>
         <hr align="center">
-        <p class="card-text pt-2"><small>Documentation regarding User experience</small></p>
+        <p class="card-text pt-2"><small>Website design for Derby School</small></p>
     </div>
   </div>
   <div class="card mb-5">
-    <img class="card-img-top" src="img/img2.png" alt="Card image cap">
+    <img class="card-img-top" src="img/img11.png" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title pt-4">COLLECTED STORIES</h5>
-      <h6 class="card-text pb-2">THE IMMORALIST<h6>
+      <h5 class="card-title pt-4">WEBSITE TEMPLATE</h5>
+      <h6 class="card-text pb-2">HIGH SCHOOL PROTOTYPE<h6>
         <hr align="center">
-        <p class="card-text pt-2"><small>Documentation regarding User experience</small></p>
+        <p class="card-text pt-2"><small>Features Content Section</small></p>
     </div>
   </div>
   <div class="card mb-5">
-    <img class="card-img-top" src="img/img3.png" alt="Card image cap">
+    <img class="card-img-top" src="img/img12.png" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title pt-4">COLLECTED STORIES</h5>
-      <h6 class="card-text pb-2">THE IMMORALIST<h6>
+      <h5 class="card-title pt-4"> FORM TEMPLATE</h5>
+      <h6 class="card-text pb-2">APPLICATION FORM PROTOTYPE<h6>
         <hr align="center">
-      <p class="card-text pt-2"><small>Documentation regarding User experience</small></p>
+      <p class="card-text pt-2"><small>6th form school prototype</small></p>
     </div>
   </div>
 </div>
-<div class="text-center">
+<div class="text-center pb-5">
 <button type="button" class="btn btn-outline-light btn-lg">View More</button>
 </div>
 </div>
 
+</section>
+<footer class="footer py-5 pt-5">
+  <button type="button" class="btn" id="btn-back-to-top"><span> &uarr; <span></button>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 mb-3">
+            <div class="text-center">
+                    <p class="text-muted para-desc mx-auto mt-3">Contact Me to Launch your campaign and benefit from my expertise on designing and creating a brand for your site.</p>
+                    <ul class="list-unstyled social-icon social mb-0 mt-4">
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook fea icon-sm fea-social"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram fea icon-sm fea-social"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter fea icon-sm fea-social"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin fea icon-sm fea-social"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+                    </ul><!--end icon-->
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</footer>
+<footer class="footer-bar bg-dark footer">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-6 footer-bar">
+                        <div class="text-sm-left">
+                            <p class="mb-0 footer-text para-desc mx-auto">&copy; 2023 Dotun Asunmo Designs.</p>
+                        </div>
+                    </div><!--end col-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </section>
-
-
-
-
-
-
-
-
-
-
+                    <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <ul class="list-unstyled terms-service text-sm-right mb-0">
+                            <li class="list-inline-item mb-0"><a href="#" class="footer-text mr-2">About</a></li>
+                            <li class="list-inline-item mb-0"><a href="#" class="footer-text mr-2">Services</a></li>
+                            <li class="list-inline-item mb-0"><a href="#" class="footer-text mr-2">FAQs</a></li>
+                            <li class="list-inline-item mb-0"><a href="#" class="footer-text">Contact</a></li>
+                        </ul>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer>
 </body>
 
 
@@ -256,8 +277,15 @@
 
 
 
-
-
+<!--onmouseout and onmouseover effect-->
+<script>
+function setNewImage(){
+  document.getElementById('profile_pic').src="img/cat.gif";
+}
+function setOldImage(){
+  document.getElementById('profile_pic').src="img/me.jpeg";
+}
+</script>
 
 
 
@@ -329,5 +357,53 @@ button.onclick = function(){
     })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <!--jumpt to top-->
+    <script>
+    function reveal() {
+var reveals = document.querySelectorAll(".reveal");
+
+for (var i = 0; i < reveals.length; i++) {
+  var windowHeight = window.innerHeight;
+  var elementTop = reveals[i].getBoundingClientRect().top;
+  var elementVisible = 150;
+
+  if (elementTop < windowHeight - elementVisible) {
+    reveals[i].classList.add("active");
+  } else {
+    reveals[i].classList.remove("active");
+  }
+}
+}
+
+window.addEventListener("scroll", reveal);
+</script>
+<script>
+//Get the button fast button to take you to top of screen
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
   </body>
 </html>
