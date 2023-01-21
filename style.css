@@ -77,8 +77,15 @@ body {
      transition: 0.5s;
      padding-top: 60px;
 }
+.sidenav img{
+    height: 230px;
+    transition: 0.9s;
+}
+.sidenav img:hover{
+    transform: rotateY(180deg);
+}
  .sidenav hr{
-     border: 3px solid red;
+     border: 1px solid red;
      width:8%;
      display: block;
      transition-property: width;
@@ -92,12 +99,12 @@ body {
      padding: 8px 8px 8px 32px;
      text-decoration: none;
      font-size: 25px;
-     color: #818181;
+     color: #f1f1f1;
      display: block;
      transition: 0.3s;
 }
  .sidenav a:hover {
-     color: #f1f1f1;
+    color: #818181;
 }
  .sidenav .closebtn {
      position: absolute;
@@ -113,6 +120,22 @@ body {
      .sidenav a {
         font-size: 18px;
     }
+}
+/* unvisited link */
+.sidenav a:link {
+    text-decoration:none;
+}
+
+/* visited link */
+.sidenav a:visited {
+    text-decoration:none;
+    color: #161621;
+}
+
+
+/* selected link */
+.sidenav a:active {
+    text-decoration:none;
 }
  .jumbotron {
      padding-top: 3rem;
@@ -435,6 +458,11 @@ body {
  .btn{
      font-family: 'Noto Serif Display', serif;
 }
+  
+
+
+
+
 /*event 3*/
  .event-3{
      color: #FFFFFF;
@@ -474,6 +502,68 @@ body {
  .rounded {
      border-radius: 5px !important;
 }
+
+/*CONTENT PAGE*/
+.content-jumbotron{
+    background-color: #161621;
+    background-image: url("img/img-pattern2.png");
+    background-color: #161621;
+
+   
+}
+.content-jumbotron hr{
+    border: 1px solid red;
+    width: 25%;
+
+}
+.accordion{
+    background-color: #161621;
+}
+.content-container{
+   
+    margin:5em auto;
+    width: 70% !important;
+
+}
+.content-container .jumbotron .card-header{
+    color: #adb5bd;
+}
+.content-jumbotron h1{
+    background-color: #161621;
+    color: #FFFFFF;
+}
+.content-jumbotron .card .text-left{
+    color: darkred;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    text-decoration:none;
+    color: #161621;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration:none;
+    color: darkred;
+
+}
+
+/* selected link */
+a:active {
+    text-decoration:none;
+}
+
+
+
+
+/*CONTENT PAGE END*/
+
  footer {
      position: relative;
      padding: 50px 0;
